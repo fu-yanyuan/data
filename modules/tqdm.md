@@ -1,5 +1,7 @@
 tqdm
 ---  
+refer to https://github.com/tqdm/tqdm for more
+
 ```python
 from tqdm.notebook import tqdm
 
