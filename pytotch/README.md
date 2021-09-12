@@ -1,5 +1,6 @@
 Pytorch useage
 ---  
+[torch.cat()&torch.stack()](https://zhuanlan.zhihu.com/p/148019451)
 ```python
 c1 = torch.rand(2,3)
 print(c1)
