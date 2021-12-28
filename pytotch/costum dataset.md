@@ -90,3 +90,8 @@ class CustomImageDataset(Dataset):
             label = self.target_transform(label)
         return image, label
 ```
+
+#### reference  
+https://medium.com/bivek-adhikari/creating-custom-datasets-and-dataloaders-with-pytorch-7e9d2f06b660  
+https://pytorch.org/tutorials/beginner/basics/data_tutorial.html  
+https://pytorch.org/vision/stable/datasets.html#base-classes-for-custom-datasets
