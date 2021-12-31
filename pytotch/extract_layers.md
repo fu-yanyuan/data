@@ -24,6 +24,16 @@ if we want a specific layer in this nn.sequential
 ```
 Dropout(p=0.5, inplace=False)
 ```
+and access some parameters  
+```
+layer = list(model.classifier.children())[0]
+print(layer.p)
+
+0.5
+```
+
+
+
 
 ```
 AlexNet(
